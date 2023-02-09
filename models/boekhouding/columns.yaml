@@ -1,0 +1,37 @@
+columns:
+    id:
+        label: id
+        type: number
+        sortable: true
+    boekhouding_factuurdatum:
+        label: Factuurdatum
+        type: text
+    boekhouding_factuurnummer:
+        label: Factuurnummer
+        type: text
+    boekhouding_bedrag:
+        label: Bedrag
+        type: text
+    boekhouding_exbtw:
+        label: 'Exclusief BTW'
+        type: text
+    boekhouding_btwbedrag:
+        label: 'Btw bedrag'
+        type: text
+    boekhouding_btwtarief:
+        label: 'BTW Tarief'
+        type: text
+    boekhouding_bedrijf:
+        label: Bedrijfsnaam
+        type: text
+    boekhouding_uitofin:
+        label: Richting
+        type: text
+    created_at:
+        label: 'Gemaakt op'
+        type: datetime
+        invisible: false
+    updated_at:
+        label: 'Update op'
+        type: datetime
+        invisible: false

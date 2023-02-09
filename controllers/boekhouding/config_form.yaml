@@ -1,0 +1,11 @@
+name: Boekhouding
+modelClass: NielsVanDenDries\NielsVanDenDries\Models\Boekhouding
+form: $/nielsvandendries/nielsvandendries/models/boekhouding/fields.yaml
+defaultRedirect: nielsvandendries/nielsvandendries/boekhouding
+create:
+    redirect: 'nielsvandendries/nielsvandendries/boekhouding/update/:id'
+    redirectClose: nielsvandendries/nielsvandendries/boekhouding
+update:
+    redirect: nielsvandendries/nielsvandendries/boekhouding
+    redirectClose: nielsvandendries/nielsvandendries/boekhouding
+preview: {  }

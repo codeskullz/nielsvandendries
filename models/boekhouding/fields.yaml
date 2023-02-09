@@ -1,0 +1,70 @@
+fields:
+    boekhouding_bedrijf:
+        label: Bedrijfsnaam
+        span: full
+        required: 1
+        type: text
+    boekhouding_factuurdatum:
+        label: Factuurdatum
+        mode: date
+        span: auto
+        required: 1
+        type: datepicker
+    boekhouding_factuurnummer:
+        label: Factuurnummer
+        span: auto
+        required: 1
+        type: text
+    boekhouding_bedrag:
+        label: 'Totaal bedrag'
+        span: auto
+        required: 1
+        type: text
+    boekhouding_exbtw:
+        label: 'Exclusief BTW'
+        span: auto
+        required: 1
+        type: text
+    boekhouding_btwtarief:
+        label: 'BTW Tarief'
+        options:
+            0%: 0%
+            9%: 9%
+            21%: 21%
+        showSearch: true
+        span: auto
+        required: 1
+        type: dropdown
+    boekhouding_btwbedrag:
+        label: 'BTW bedrag'
+        span: auto
+        required: 1
+        type: text
+    boekhouding_uitofin:
+        label: 'Inkomsten of Uitgaven'
+        options:
+            Inkomsten: Inkomsten
+            Uitgaven: Uitgaven
+        span: auto
+        required: 1
+        type: balloon-selector
+    created_at:
+        label: 'Created at'
+        mode: datetime
+        span: auto
+        readOnly: 1
+        hidden: 1
+        type: datepicker
+    updated_at:
+        label: 'Updated at'
+        mode: datetime
+        span: auto
+        readOnly: 1
+        hidden: 1
+        type: datepicker
+    id:
+        label: Id
+        span: auto
+        readOnly: 1
+        hidden: 1
+        type: number

@@ -1,0 +1,24 @@
+plugin:
+    name: 'nielsvandendries.nielsvandendries::lang.plugin.name'
+    description: 'nielsvandendries.nielsvandendries::lang.plugin.description'
+    author: 'Niels van den Dries'
+    icon: oc-icon-leaf
+    homepage: ''
+permissions:
+    boekhouding:
+        tab: 'nielsvandendries.nielsvandendries::lang.plugin.name'
+        label: Boekhouding
+navigation:
+    main-menu-item:
+        label: 'nielsvandendries.nielsvandendries::lang.plugin.name'
+        url: /
+        icon: icon-leaf
+        permissions:
+            - boekhouding
+        sideMenu:
+            side-menu-item:
+                label: Boekhouding
+                url: nielsvandendries/nielsvandendries/boekhouding
+                icon: icon-euro
+                permissions:
+                    - boekhouding

@@ -1,0 +1,8 @@
+{
+    "name": "NielsVanDenDries/Toolkit-plugin",
+    "type": "october-plugin",
+    "description": "A meaningful description",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
