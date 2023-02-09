@@ -1,5 +1,5 @@
 {
-    "name": "NielsVanDenDries/Toolkit-plugin",
+    "name": "nielsvandendries/nielsvandendries-plugin",
     "type": "october-plugin",
     "description": "A meaningful description",
     "require": {
