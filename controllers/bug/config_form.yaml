@@ -1,0 +1,11 @@
+name: Bug
+modelClass: NielsVanDenDries\NielsVanDenDries\Models\Bugtracker
+form: $/nielsvandendries/nielsvandendries/models/bugtracker/fields.yaml
+defaultRedirect: nielsvandendries/nielsvandendries/bug
+create:
+    redirect: 'nielsvandendries/nielsvandendries/bug/update/:id'
+    redirectClose: nielsvandendries/nielsvandendries/bug
+update:
+    redirect: nielsvandendries/nielsvandendries/bug
+    redirectClose: nielsvandendries/nielsvandendries/bug
+preview: {  }

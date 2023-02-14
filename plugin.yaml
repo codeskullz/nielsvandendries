@@ -8,6 +8,9 @@ permissions:
     boekhouding:
         tab: 'nielsvandendries.nielsvandendries::lang.plugin.name'
         label: Boekhouding
+    bugmanager:
+        tab: 'nielsvandendries.nielsvandendries::lang.plugin.name'
+        label: 'Bug Manager'
 navigation:
     main-menu-item:
         label: 'nielsvandendries.nielsvandendries::lang.plugin.name'
@@ -22,3 +25,9 @@ navigation:
                 icon: icon-euro
                 permissions:
                     - boekhouding
+            side-menu-item2:
+                label: Bugs
+                url: nielsvandendries/nielsvandendries/bug
+                icon: icon-bug
+                permissions:
+                    - bugmanager

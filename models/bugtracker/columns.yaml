@@ -1,0 +1,71 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    name:
+        label: name
+        type: text
+        searchable: true
+        sortable: true
+    summary:
+        label: summary
+        type: text
+        invisible: true
+    environment:
+        label: environment
+        type: text
+        searchable: true
+        sortable: true
+    logs:
+        label: logs
+        type: text
+        invisible: true
+    sourceurl:
+        label: sourceurl
+        type: text
+        invisible: true
+    screenshots:
+        label: screenshots
+        type: text
+        invisible: true
+    reproduce:
+        label: reproduce
+        type: text
+        invisible: true
+    expectation:
+        label: expectation
+        type: text
+        invisible: true
+    severity:
+        label: severity
+        type: text
+        searchable: true
+        sortable: true
+    priority:
+        label: priority
+        type: text
+        searchable: true
+        sortable: true
+    reportername:
+        label: reportername
+        type: text
+        invisible: true
+    assignee:
+        label: assignee
+        type: text
+        searchable: true
+        sortable: true
+    duedate:
+        label: duedate
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true

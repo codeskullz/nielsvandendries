@@ -21,3 +21,21 @@
 1.0.8:
     - 'Updated table nielsvandendries_nielsvandendries_boekhouding'
     - builder_table_update_nielsvandendries_nielsvandendries_boekhouding_4.php
+1.0.9:
+    - 'Created table nielsvandendries_nielsvandendries_wiki'
+    - builder_table_create_nielsvandendries_nielsvandendries_wiki.php
+1.0.10:
+    - 'Drop table nielsvandendries_nielsvandendries_wiki'
+    - builder_table_delete_nielsvandendries_nielsvandendries_wiki.php
+1.0.11:
+    - 'Updated table nielsvandendries_nielsvandendries_boekhouding'
+    - builder_table_update_nielsvandendries_nielsvandendries_boekhouding_5.php
+1.0.12:
+    - 'Created table nielsvandendries_nielsvandendries_bugtracker'
+    - builder_table_create_nielsvandendries_nielsvandendries_bugtracker.php
+1.0.13:
+    - 'Updated table nielsvandendries_nielsvandendries_bugtracker'
+    - builder_table_update_nielsvandendries_nielsvandendries_bugtracker.php
+1.0.14:
+    - 'Updated table nielsvandendries_nielsvandendries_bugtracker'
+    - builder_table_update_nielsvandendries_nielsvandendries_bugtracker_2.php
