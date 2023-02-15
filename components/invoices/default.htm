@@ -22,6 +22,7 @@
         <td>{{ item.boekhouding_bedrijf }}</td>
       </tr>
     </tbody>
+    {% else %}
+        <p class="no-data">Geen Invoices gevonden</p>
     {% endfor %}
-  </table>
-</div>
+</table>
