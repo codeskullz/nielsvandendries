@@ -1,14 +1,27 @@
 {% set boekhouding = __SELF__.item %}
 
-{% for item in boekhouding %}
-<div class="mt-1">
-    <ul class="list-group list-group-horizontal">
-        <li class="list-group-item flex-fill">Date: {{ item.boekhouding_factuurdatum }}</li>
-        <li class="list-group-item flex-fill">Invoicenumber: {{ item.boekhouding_factuurnummer }}</li>
-        <li class="list-group-item flex-fill">Total amount: &euro; {{ item.boekhouding_bedrag }}</li>
-        <li class="list-group-item flex-fill">Tax amount: &euro; {{ item.boekhouding_btwbedrag }}</li>
-        <li class="list-group-item flex-fill">Tax rate: {{ item.boekhouding_btwtarief }}</li>
-        <li class="list-group-item flex-fill">Company: {{ item.boekhouding_bedrijf }}</li>
-    </ul>
+<table class="table">
+    <thead>
+      <tr>
+        <th class="table-info">Date</th>
+        <th class="table-info">Invoicenumber</th>
+        <th class="table-info">Total amount</th>
+        <th class="table-info">Tax amount</th>
+        <th class="table-info">Tax rate</th>
+        <th class="table-info">Company</th>
+      </tr>
+    </thead>
+    {% for item in boekhouding %}
+    <tbody>
+      <tr>
+        <td>{{ item.boekhouding_factuurdatum }}</td>
+        <td>{{ item.boekhouding_factuurnummer }}</td>
+        <td>&euro; {{ item.boekhouding_bedrag }}</td>
+        <td>&euro; {{ item.boekhouding_btwbedrag }}</td>
+        <td>{{ item.boekhouding_btwtarief }}</td>
+        <td>{{ item.boekhouding_bedrijf }}</td>
+      </tr>
+    </tbody>
+    {% endfor %}
+  </table>
 </div>
-{% endfor %}

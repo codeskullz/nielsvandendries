@@ -127,3 +127,12 @@ tabs:
             useKey: false
             type: taglist
             tab: Impact
+        archive:
+            label: 'Archive?'
+            span: auto
+            'on': 'Yes'
+            'off': 'No'
+            required: 1
+            type: switch
+            comment: 'When yes, this bug will NOT be displayed at the front-end'
+            tab: Impact

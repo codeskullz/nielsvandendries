@@ -20,4 +20,8 @@ class Boekhouding extends Model
      */
     public $rules = [
     ];
+
+    public $attachMany = [
+        'invoices' => \System\Models\File::class
+    ];
 }

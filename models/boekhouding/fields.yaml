@@ -28,9 +28,9 @@ fields:
     boekhouding_btwtarief:
         label: 'BTW Tarief'
         options:
-            0%: 0%
-            9%: 9%
             21%: 21%
+            9%: 9%
+            0%: 0%
         showSearch: true
         span: auto
         required: 1
@@ -68,3 +68,12 @@ fields:
         readOnly: 1
         hidden: 1
         type: number
+    invoices:
+        label: 'Factuur uploaden'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

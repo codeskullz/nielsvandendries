@@ -1,0 +1,27 @@
+<?php namespace NielsVanDenDries\NielsVanDenDries\Updates;
+
+use Schema;
+use October\Rain\Database\Updates\Migration;
+
+class BuilderTableUpdateNielsvandendriesNielsvandendriesBoekhouding6 extends Migration
+{
+    public function up()
+    {
+        Schema::table('nielsvandendries_nielsvandendries_boekhouding', function($table)
+        {
+            $table->string('boekhouding_bedrag', 10)->nullable(false)->unsigned(false)->default(null)->comment(null)->change();
+            $table->string('boekhouding_exbtw', 10)->nullable(false)->unsigned(false)->default(null)->comment(null)->change();
+            $table->string('boekhouding_btwbedrag', 10)->nullable(false)->unsigned(false)->default(null)->comment(null)->change();
+        });
+    }
+    
+    public function down()
+    {
+        Schema::table('nielsvandendries_nielsvandendries_boekhouding', function($table)
+        {
+            $table->integer('boekhouding_bedrag')->nullable(false)->unsigned(false)->default(null)->comment(null)->change();
+            $table->integer('boekhouding_exbtw')->nullable(false)->unsigned(false)->default(null)->comment(null)->change();
+            $table->integer('boekhouding_btwbedrag')->nullable(false)->unsigned(false)->default(null)->comment(null)->change();
+        });
+    }
+}
