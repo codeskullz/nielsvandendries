@@ -23,6 +23,10 @@
       </tr>
     </tbody>
     {% else %}
-        <p class="no-data">Geen Invoices gevonden</p>
+    <div class="no-data">
+      <div class="alert alert-danger" role="alert">
+        <i><i class="bi bi-exclamation-triangle"></i> Geen Invoices gevonden</i>
+      </div>
+    </div>
     {% endfor %}
 </table>
