@@ -9,7 +9,7 @@
         <th class="table-dark">BTW %</th>
         <th class="table-dark">Bedrijf</th>
         <th class="table-dark">Periode</th>
-        <th class="table-dark">Download</th>
+        <th class="table-dark">Download*</th>
       </tr>
     </thead>
     {% for item in boekhouding %}
@@ -22,7 +22,7 @@
         <td>{{ item.boekhouding_btwtarief }}</td>
         <td>{{ item.boekhouding_bedrijf }}</td>
         <td>{{ item.boekhouding_kwartaal}}</td>
-        <td><a href="{{ item.path }}"><i class="bi bi-download"></i></a></td>
+        <td><a class="text-muted"><i class="bi bi-download"></i></a></td>
       </tr>
     </tbody>
     {% else %}
@@ -33,3 +33,4 @@
     </div>
     {% endfor %}
 </table>
+<p><i>* = In development</i></p>

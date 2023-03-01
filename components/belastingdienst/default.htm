@@ -6,6 +6,7 @@
         <th class="table-dark">Aangifte Datum</th>
         <th class="table-dark">Status</th>
         <th class="table-dark">Kwartaal</th>
+        <th class="table-dark">Download*</th>
       </tr>
     </thead>
     {% for item in Btw %}
@@ -14,6 +15,7 @@
           <td>{{ item.aangiftedatum }}</td>
           <td>{{ item.uitgevoerd|raw }}</td>
           <td>{{ item.period }}</td>
+          <td><a class="text-muted"><i class="bi bi-download"></i></a></td>
         </tr>
       </tbody>
 
@@ -25,3 +27,4 @@
 </div>
 {% endfor %}
 </table>
+<p><i>* = in development</i></p>
