@@ -1,0 +1,11 @@
+name: BTW
+modelClass: NielsVanDenDries\NielsVanDenDries\Models\Btw
+form: $/nielsvandendries/nielsvandendries/models/btw/fields.yaml
+defaultRedirect: nielsvandendries/nielsvandendries/btw
+create:
+    redirect: 'nielsvandendries/nielsvandendries/btw/update/:id'
+    redirectClose: nielsvandendries/nielsvandendries/btw
+update:
+    redirect: nielsvandendries/nielsvandendries/btw
+    redirectClose: nielsvandendries/nielsvandendries/btw
+preview: {  }

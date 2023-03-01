@@ -1,0 +1,30 @@
+columns:
+    id:
+        label: ID
+        type: number
+        invisible: true
+    aangiftedatum:
+        label: Aangiftedatum
+        type: date
+        sortable: true
+    uitgevoerd:
+        label: Uitgevoerd
+        type: switch
+        sortable: true
+    bestanden:
+        label: Bestanden
+        type: text
+        invisible: true
+    created_at:
+        label: 'Aangemaakt op'
+        type: datetime
+        invisible: true
+    updated_at:
+        label: 'Laatste Update'
+        type: datetime
+        invisible: false
+    period:
+        label: Kwartaal
+        type: text
+        searchable: true
+        sortable: true

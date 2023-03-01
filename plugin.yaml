@@ -22,3 +22,9 @@ navigation:
                 icon: icon-euro
                 permissions:
                     - boekhouding
+            side-menu-item2:
+                label: BTW
+                url: nielsvandendries/nielsvandendries/btw
+                icon: icon-bank
+                permissions:
+                    - boekhouding

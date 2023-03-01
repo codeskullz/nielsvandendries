@@ -57,3 +57,9 @@
 1.0.20:
     - 'Updated table nielsvandendries_nielsvandendries_boekhouding'
     - builder_table_update_nielsvandendries_nielsvandendries_boekhouding_7.php
+1.0.21:
+    - 'Created table nielsvandendries_nielsvandendries_btw'
+    - builder_table_create_nielsvandendries_nielsvandendries_btw.php
+1.0.22:
+    - 'Updated table nielsvandendries_nielsvandendries_btw'
+    - builder_table_update_nielsvandendries_nielsvandendries_btw.php

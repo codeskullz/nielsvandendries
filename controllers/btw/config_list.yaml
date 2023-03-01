@@ -1,0 +1,12 @@
+title: BTW
+modelClass: NielsVanDenDries\NielsVanDenDries\Models\Btw
+list: $/nielsvandendries/nielsvandendries/models/btw/columns.yaml
+recordUrl: 'nielsvandendries/nielsvandendries/btw/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
