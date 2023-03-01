@@ -48,26 +48,17 @@ fields:
         span: auto
         required: 1
         type: balloon-selector
-    created_at:
-        label: 'Created at'
-        mode: datetime
+    boekhouding_kwartaal:
+        label: Kwartaal
         span: auto
-        readOnly: 1
-        hidden: 1
-        type: datepicker
-    updated_at:
-        label: 'Updated at'
-        mode: datetime
-        span: auto
-        readOnly: 1
-        hidden: 1
-        type: datepicker
-    id:
-        label: Id
-        span: auto
-        readOnly: 1
-        hidden: 1
-        type: number
+        showSearch: true
+        options:
+            Q1: Q1
+            Q2: Q2
+            Q3: Q3
+            Q4: Q4
+        required: 1
+        type: dropdown
     invoices:
         label: 'Factuur uploaden'
         mode: file

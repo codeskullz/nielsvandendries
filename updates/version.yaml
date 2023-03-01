@@ -48,3 +48,12 @@
 1.0.17:
     - 'Drop table nielsvandendries_nielsvandendries_bugtracker'
     - builder_table_delete_nielsvandendries_nielsvandendries_bugtracker.php
+1.0.18:
+    - 'Created table nielsvandendries_nielsvandendries_wiki'
+    - builder_table_create_nielsvandendries_nielsvandendries_wiki_2.php
+1.0.19:
+    - 'Drop table nielsvandendries_nielsvandendries_wiki'
+    - builder_table_delete_nielsvandendries_nielsvandendries_wiki_2.php
+1.0.20:
+    - 'Updated table nielsvandendries_nielsvandendries_boekhouding'
+    - builder_table_update_nielsvandendries_nielsvandendries_boekhouding_7.php
