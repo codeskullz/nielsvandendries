@@ -43,4 +43,9 @@ class Invoices extends ComponentBase
         // $this->item = Boekhouding::get()->toArray();
         $this->item = Boekhouding::where('boekhouding_kwartaal', $this->property('boekhouding_kwartaal'))->get()->toArray();
     }
+
+    public function onDownloadFile()
+    {
+        // return $Boekhouding->invoices->download();
+    }
 }

@@ -22,6 +22,13 @@ class Btw extends Model
     ];
 
     public $attachMany = [
-        'taxes' => \System\Models\File::class
+        'taxes' => [\System\Models\File::class, 'public' => true]
     ];
+
+    public function onDownload()
+    {
+        // ...
+
+        return $model->taxes->download();
+    }
 }

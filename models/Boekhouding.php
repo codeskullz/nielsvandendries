@@ -22,6 +22,6 @@ class Boekhouding extends Model
     ];
 
     public $attachMany = [
-        'invoices' => \System\Models\File::class
+        'invoices' => [\System\Models\File::class, 'public' => true]
     ];
 }

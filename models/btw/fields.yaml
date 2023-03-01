@@ -27,10 +27,10 @@ fields:
         type: radio
     uitgevoerd:
         label: Status
-        span: left
         options:
-            Ingediend: Ingediend
-            'Nog niet Ingediend': 'Nog niet Ingediend'
-            Wachten: Wachten
-            Afgerond: Afgerond
+            '<i class="bi bi-send-check"></i> Ingediend': Ingediend
+            '<i class="bi bi-alarm"></i> Nog niet Ingediend': 'Nog niet Ingediend'
+            '<i class="bi bi-clock"></i> Wachten': Wachten
+            '<i class="bi bi-check-circle"></i> Afgerond': Afgerond
+        span: left
         type: balloon-selector
