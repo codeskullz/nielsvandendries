@@ -25,22 +25,22 @@ class Invoices extends ComponentBase
     public function defineProperties()
     {
         return [
-            'boekhouding_uitofin' => [
-                'title'             => 'Credit or Debit',
+            'boekhouding_kwartaal' => [
+                'title'             => 'Periode',
                 'description'       => 'Watch the Simpson',
                 'type'              => 'dropdown',
             ]
         ];
     }
 
-    public function getBoekhouding_uitofinOptions()
+    public function getboekhouding_kwartaalOptions()
     {
-        return Boekhouding::get()->lists('boekhouding_uitofin', 'boekhouding_uitofin');
+        return Boekhouding::get()->lists('boekhouding_kwartaal', 'boekhouding_kwartaal');
     }
 
     public function onRun()
     {
-        $this->item = Boekhouding::get()->toArray();
-        $this->item = Boekhouding::where('boekhouding_uitofin', $this->property('boekhouding_uitofin'))->get()->toArray();
+        // $this->item = Boekhouding::get()->toArray();
+        $this->item = Boekhouding::where('boekhouding_kwartaal', $this->property('boekhouding_kwartaal'))->get()->toArray();
     }
 }
