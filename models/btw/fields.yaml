@@ -26,9 +26,11 @@ fields:
         required: 1
         type: radio
     uitgevoerd:
-        label: Uitgevoerd
-        'on': Ja
-        'off': Nee
+        label: Status
         span: left
-        required: 1
-        type: switch
+        options:
+            Ingediend: Ingediend
+            'Nog niet Ingediend': 'Nog niet Ingediend'
+            Wachten: Wachten
+            Afgerond: Afgerond
+        type: balloon-selector

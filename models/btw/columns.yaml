@@ -6,12 +6,11 @@ columns:
     aangiftedatum:
         label: Aangiftedatum
         type: datetime
-        format: d-m-Y h:i:s
+        format: 'd-m-Y h:i:s'
         sortable: true
     uitgevoerd:
         label: Uitgevoerd
-        type: inetis-list-switch
-        icon: true
+        type: text
         sortable: true
     bestanden:
         label: Bestanden
