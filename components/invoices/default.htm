@@ -22,7 +22,7 @@
         <td>{{ item.boekhouding_btwtarief }}</td>
         <td>{{ item.boekhouding_bedrijf }}</td>
         <td>{{ item.boekhouding_kwartaal}}</td>
-        <td><a class="text-muted"><i class="bi bi-download"></i></a></td>
+        <td><a class="text-muted" href="{{ item.invoices.first.path }}"><i class="bi bi-download"></i></a></td>
       </tr>
     </tbody>
     {% else %}
