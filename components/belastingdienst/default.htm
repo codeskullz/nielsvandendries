@@ -1,0 +1,27 @@
+{% set Btw = __SELF__.item %}
+
+<table class="table">
+    <thead>
+      <tr>
+        <th class="table-dark">Aangifte Datum</th>
+        <th class="table-dark">Uitgevoerd</th>
+        <th class="table-dark">Kwartaal</th>
+      </tr>
+    </thead>
+    {% for item in Btw %}
+    <tbody>
+        <tr>
+          <td>{{ item.aangiftedatum }}</td>
+          <td>{{ item.uitgevoerd }}</td>
+          <td>{{ item.period }}</td>
+        </tr>
+      </tbody>
+
+{% else %}
+<div class="no-data">
+  <div class="alert alert-danger" role="alert">
+    <i><i class="bi bi-exclamation-triangle"></i> Geen Invoices gevonden</i>
+  </div>
+</div>
+{% endfor %}
+</table>

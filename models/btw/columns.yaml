@@ -5,11 +5,13 @@ columns:
         invisible: true
     aangiftedatum:
         label: Aangiftedatum
-        type: date
+        type: datetime
+        format: d-m-Y h:i:s
         sortable: true
     uitgevoerd:
         label: Uitgevoerd
-        type: switch
+        type: inetis-list-switch
+        icon: true
         sortable: true
     bestanden:
         label: Bestanden
