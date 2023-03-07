@@ -49,4 +49,4 @@ columns:
     boekhouding_kwartaal:
         label: Kwartaal
         type: text
-        sortable: true
+        sortable: false
